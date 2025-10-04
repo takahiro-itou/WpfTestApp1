@@ -26,5 +26,10 @@ namespace WpfApp1
 
             this.Title += " - .NET Core で WPF";
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            Text1.Text = $"クリックしたのは{DateTimeOffset.Now:HH:mm}";
+        }
     }
 }

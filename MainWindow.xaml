@@ -13,6 +13,7 @@
         </Grid.RowDefinitions>
         <TextBlock x:Name="Text1" FontSize="64">Hello, WPF !</TextBlock>
         <Button
+            Click="Button_Click"
             Grid.Row="1"
             Background="ForestGreen"
             Foreground="#fff"
