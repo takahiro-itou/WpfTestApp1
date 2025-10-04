@@ -8,5 +8,15 @@
         Title="MainWindow" Height="450" Width="800">
     <Grid>
         <TextBlock x:Name="Text1" FontSize="64">Hello, WPF !</TextBlock>
+        <Button
+            Background="ForestGreen"
+            Foreground="#fff"
+            HorizontalAlignment="Center"
+            VerticalAlignment="Center"
+            Margin="0,0,0,20"
+            Padding="20,0"
+            FontSize="32"
+            FontWeight="Bold"
+            >Click</Button>
     </Grid>
 </Window>
