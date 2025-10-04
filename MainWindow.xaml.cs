@@ -19,6 +19,12 @@ namespace WpfApp1
         public MainWindow()
         {
             InitializeComponent();
+
+            Text1.Foreground = new SolidColorBrush(Color.FromRgb(0x00, 0xA2, 0xE8));
+            Text1.HorizontalAlignment = HorizontalAlignment.Center;
+            Text1.VerticalAlignment = VerticalAlignment.Center;
+
+            this.Title += " - .NET Core で WPF";
         }
     }
 }
